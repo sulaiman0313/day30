@@ -13,7 +13,9 @@ function main2(a,b,callback){
    console.log(a+b)
    
 }
-main2(2,2,main)
+main2(2,2,function(){
+    console.log("running....") //annonimus fn
+})
 
 console.log("end")
 
